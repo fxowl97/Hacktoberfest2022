@@ -1,0 +1,41 @@
+.scoreboard {
+  width: 1000px;
+  margin: 10px auto;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.titles,
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.titles {
+  padding: 15px 5px;
+  background: linear-gradient(#946070, #949070);
+  color: white;
+  div {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+  }
+}
+
+.content div {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  li {
+    padding: 10px 0;
+  }
+}
